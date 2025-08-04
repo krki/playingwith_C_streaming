@@ -1,0 +1,57 @@
+# Executáveis
+streamflix
+test
+*.exe
+*.out
+
+# Ficheiros objeto e bibliotecas
+*.o
+*.a
+*.so
+*.dylib
+
+# Ficheiros temporários do compilador
+*.d
+*.tmp
+
+# Ficheiros de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Ficheiros de editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ficheiros de build
+build/
+dist/
+*.log
+
+# Ficheiros de sistema
+.directory
+desktop.ini
+
+# Possíveis ficheiros de dados temporários
+*.backup
+*.bak
+data/*.tmp
+
+# Core dumps
+core
+core.*
+
+# Valgrind
+vgcore.*
+
+# Coverage files
+*.gcov
+*.gcno
+*.gcda
+EOF
